@@ -1,0 +1,7 @@
+13:06:31.054 [TestNG-tests-2] INFO  resources.Base - Clicked on login button
+13:06:33.610 [TestNG-tests-2] INFO  resources.Base - Navigated to the desired URL
+13:06:33.692 [TestNG-tests-2] INFO  resources.Base - Clicking on login link
+13:06:34.348 [TestNG-tests-2] INFO  resources.Base - CLicked on login and in login page now
+13:06:34.348 [TestNG-tests-2] INFO  resources.Base - Entering username
+13:06:34.503 [TestNG-tests-2] INFO  resources.Base - Username entered
+13:06:34.503 [TestNG-tests-2] INFO  resources.Base - Entering password

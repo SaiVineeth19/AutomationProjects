@@ -1,0 +1,6 @@
+15:58:20.859 [main] INFO  alpha.SeleniumLog4jIntegration - Landed on amazon home page
+15:58:23.502 [main] DEBUG alpha.SeleniumLog4jIntegration - Getting the frames count
+15:58:23.544 [main] INFO  alpha.SeleniumLog4jIntegration - Frames count retreived
+15:58:23.563 [main] INFO  alpha.SeleniumLog4jIntegration - Successfully switched to frame
+15:58:23.563 [main] DEBUG alpha.SeleniumLog4jIntegration - Identifying Draggable objects
+15:58:24.250 [main] INFO  alpha.SeleniumLog4jIntegration - Drag and drop success

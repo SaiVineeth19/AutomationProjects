@@ -1,0 +1,8 @@
+17:34:54.401 [main] INFO  resources.Base - Navigated to the desired URL
+17:34:54.707 [main] INFO  resources.Base - Clicking on login link
+17:34:56.655 [main] INFO  resources.Base - CLicked on login and in login page now
+17:34:56.655 [main] INFO  resources.Base - Entering username
+17:34:56.850 [main] INFO  resources.Base - Username entered
+17:34:56.850 [main] INFO  resources.Base - Entering password
+17:34:56.975 [main] INFO  resources.Base - Password entered
+17:34:56.975 [main] INFO  resources.Base - Related text entered

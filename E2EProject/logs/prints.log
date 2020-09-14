@@ -1,0 +1,7 @@
+18:38:49.435 [TestNG-tests-1] INFO  resources.Base - Entering password
+18:38:49.600 [TestNG-tests-1] INFO  resources.Base - Password entered
+18:38:49.600 [TestNG-tests-1] INFO  resources.Base - Related text entered
+18:38:49.600 [TestNG-tests-1] INFO  resources.Base - Clicking on login button
+18:38:50.083 [TestNG-tests-1] INFO  resources.Base - Clicked on login button
+18:38:50.600 [TestNG-tests-1] INFO  resources.Base - Getting text from database
+18:38:50.915 [TestNG-tests-1] INFO  resources.Base - Closing browser

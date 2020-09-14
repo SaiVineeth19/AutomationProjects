@@ -1,0 +1,7 @@
+18:38:34.700 [TestNG-tests-1] INFO  resources.Base - Closing browser
+18:38:39.580 [TestNG-tests-1] INFO  resources.Base - Driver is initialized
+18:38:45.921 [TestNG-tests-1] INFO  resources.Base - Navigated to the desired URL
+18:38:46.168 [TestNG-tests-1] INFO  resources.Base - Clicking on login link
+18:38:49.314 [TestNG-tests-1] INFO  resources.Base - CLicked on login and in login page now
+18:38:49.314 [TestNG-tests-1] INFO  resources.Base - Entering username
+18:38:49.434 [TestNG-tests-1] INFO  resources.Base - Username entered

@@ -1,0 +1,8 @@
+15:50:59.416 [main] ERROR alpha.Demo - This is an error
+15:50:59.419 [main] FATAL alpha.Demo - A fatal message
+15:51:11.889 [main] DEBUG beta.Demo1 - I am debugging
+15:51:11.892 [main] INFO  beta.Demo1 - 2 is greater than 3
+15:51:11.892 [main] ERROR beta.Demo1 - This is an error
+15:51:11.892 [main] FATAL beta.Demo1 - A fatal message
+15:58:17.980 [main] INFO  alpha.SeleniumLog4jIntegration - Window Maximized
+15:58:17.990 [main] DEBUG alpha.SeleniumLog4jIntegration - Now hitting Amazon server

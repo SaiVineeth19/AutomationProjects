@@ -1,0 +1,7 @@
+23:05:57.205 [TestNG-tests-2] INFO  resources.Base - CLicked on login and in login page now
+23:05:57.296 [TestNG-tests-2] INFO  resources.Base - Entering username
+23:05:57.411 [TestNG-tests-2] INFO  resources.Base - Username entered
+23:05:57.411 [TestNG-tests-2] INFO  resources.Base - Entering password
+23:05:57.487 [TestNG-tests-2] INFO  resources.Base - Password entered
+23:05:57.487 [TestNG-tests-2] INFO  resources.Base - Restricted user
+23:05:57.488 [TestNG-tests-2] INFO  resources.Base - Related text entered

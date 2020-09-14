@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="8" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNGRoots" duration-ms="75" started-at="2020-08-26T17:48:10 CDT" finished-at="2020-08-26T17:48:10 CDT">
+    <groups>
+      <group name="Smoke">
+        <method signature="Root1.Demo(java.lang.String)[pri:0, instance:test.Root1@23e028a9]" name="Demo" class="test.Root1"/>
+        <method signature="Root3.testShell(java.lang.String)[pri:0, instance:test.Root3@71bbf57e]" name="testShell" class="test.Root3"/>
+        <method signature="Root4.skippingTests()[pri:0, instance:test.Root4@7f13d6e]" name="skippingTests" class="test.Root4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="OuterRoots" duration-ms="46" started-at="2020-08-26T17:48:10 CDT" finished-at="2020-08-26T17:48:10 CDT">
+      <class name="test.Root2">
+        <test-method status="PASS" signature="preRequisite()[pri:0, instance:test.Root2@47ef968d]" name="preRequisite" is-config="true" duration-ms="1" started-at="2020-08-26T17:48:10 CDT" finished-at="2020-08-26T17:48:10 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method status="PASS" signature="anotherTest(java.lang.String)[pri:0, instance:test.Root2@47ef968d]" name="anotherTest" duration-ms="2" started-at="2020-08-26T17:48:10 CDT" finished-at="2020-08-26T17:48:10 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.w3schools.com/js/js_htmldom_document.asp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anotherTest -->
+      </class> <!-- test.Root2 -->
+      <class name="test.Root1">
+        <test-method status="PASS" signature="Demo(java.lang.String)[pri:0, instance:test.Root1@23e028a9]" name="Demo" duration-ms="6" started-at="2020-08-26T17:48:10 CDT" finished-at="2020-08-26T17:48:10 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.w3schools.com/js/js_htmldom_document.asp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="executeLast()[pri:0, instance:test.Root1@23e028a9]" name="executeLast" is-config="true" duration-ms="0" started-at="2020-08-26T17:48:10 CDT" finished-at="2020-08-26T17:48:10 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLast -->
+      </class> <!-- test.Root1 -->
+    </test> <!-- OuterRoots -->
+    <test name="InnerRoots" duration-ms="75" started-at="2020-08-26T17:48:10 CDT" finished-at="2020-08-26T17:48:10 CDT">
+      <class name="test.Root4">
+        <test-method status="PASS" signature="executeEvery()[pri:0, instance:test.Root4@7f13d6e]" name="executeEvery" is-config="true" duration-ms="0" started-at="2020-08-26T17:48:10 CDT" finished-at="2020-08-26T17:48:10 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeEvery -->
+        <test-method status="FAIL" signature="skippingTests()[pri:0, instance:test.Root4@7f13d6e]" name="skippingTests" duration-ms="8" started-at="2020-08-26T17:48:10 CDT" finished-at="2020-08-26T17:48:10 CDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.Root4.skippingTests(Root4.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skippingTests -->
+      </class> <!-- test.Root4 -->
+      <class name="test.Root3">
+        <test-method status="PASS" signature="firstMethod()[pri:0, instance:test.Root3@71bbf57e]" name="firstMethod" is-config="true" duration-ms="12" started-at="2020-08-26T17:48:10 CDT" finished-at="2020-08-26T17:48:10 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstMethod -->
+        <test-method status="PASS" signature="testShell(java.lang.String)[pri:0, instance:test.Root3@71bbf57e]" name="testShell" duration-ms="6" started-at="2020-08-26T17:48:10 CDT" finished-at="2020-08-26T17:48:10 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShell -->
+        <test-method status="PASS" signature="day3(java.lang.String, java.lang.String)[pri:0, instance:test.Root3@71bbf57e]" name="day3" duration-ms="2" started-at="2020-08-26T17:48:10 CDT" data-provider="getData" depends-on-methods="test.Root3.testShell" finished-at="2020-08-26T17:48:10 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day3 -->
+        <test-method status="PASS" signature="day3(java.lang.String, java.lang.String)[pri:0, instance:test.Root3@71bbf57e]" name="day3" duration-ms="1" started-at="2020-08-26T17:48:10 CDT" data-provider="getData" depends-on-methods="test.Root3.testShell" finished-at="2020-08-26T17:48:10 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day3 -->
+        <test-method status="PASS" signature="day3(java.lang.String, java.lang.String)[pri:0, instance:test.Root3@71bbf57e]" name="day3" duration-ms="3" started-at="2020-08-26T17:48:10 CDT" data-provider="getData" depends-on-methods="test.Root3.testShell" finished-at="2020-08-26T17:48:10 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day3 -->
+      </class> <!-- test.Root3 -->
+    </test> <!-- InnerRoots -->
+  </suite> <!-- TestNGRoots -->
+</testng-results>

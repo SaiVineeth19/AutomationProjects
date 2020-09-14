@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestNGRoots">
+              <span class="suite-name border-failed">TestNGRoots</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestNGRoots">
+                    <span>C:\Users\User\eclipse-workspace\TestNGWorkBench\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestNGRoots">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestNGRoots">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestNGRoots">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestNGRoots">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestNGRoots">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestNGRoots">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestNGRoots" class="hide-methods failed suite-TestNGRoots"> (hide)</a> <!-- hide-methods failed suite-TestNGRoots -->
+                      <a href="#" panel-name="suite-TestNGRoots" class="show-methods failed suite-TestNGRoots"> (show)</a> <!-- show-methods failed suite-TestNGRoots -->
+                    </span>
+                    <div class="method-list-content failed suite-TestNGRoots">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGRoots" title="test.Root4" hash-for-method="skippingTests">skippingTests</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestNGRoots -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestNGRoots" class="hide-methods passed suite-TestNGRoots"> (hide)</a> <!-- hide-methods passed suite-TestNGRoots -->
+                      <a href="#" panel-name="suite-TestNGRoots" class="show-methods passed suite-TestNGRoots"> (show)</a> <!-- show-methods passed suite-TestNGRoots -->
+                    </span>
+                    <div class="method-list-content passed suite-TestNGRoots">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGRoots" title="test.Root1" hash-for-method="Demo(https://www.w3schools.com/js/js_htmldom_document.asp)">Demo(https://www.w3schools.com/js/js_htmldom_document.asp)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGRoots" title="test.Root2" hash-for-method="anotherTest(https://www.w3schools.com/js/js_htmldom_document.asp)">anotherTest(https://www.w3schools.com/js/js_htmldom_document.asp)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGRoots" title="test.Root3" hash-for-method="day3(thirdUser, thirdPassword)">day3(thirdUser, thirdPassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGRoots" title="test.Root3" hash-for-method="day3(secondUser, secondPassword)">day3(secondUser, secondPassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGRoots" title="test.Root3" hash-for-method="day3(firstUser, firstPassword)">day3(firstUser, firstPassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGRoots" title="test.Root3" hash-for-method="testShell(https://www.google.com/)">testShell(https://www.google.com/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestNGRoots -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestNGRoots" class="panel TestNGRoots">
+          <div class="suite-TestNGRoots-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.Root4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="skippingTests">
+                  </a> <!-- skippingTests -->
+                  <span class="method-name">skippingTests</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at test.Root4.skippingTests(Root4.java:17)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNGRoots-class-failed -->
+          <div class="suite-TestNGRoots-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Root1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Demo(https://www.w3schools.com/js/js_htmldom_document.asp)">
+                  </a> <!-- Demo(https://www.w3schools.com/js/js_htmldom_document.asp) -->
+                  <span class="method-name">Demo</span>
+                  <span class="parameters">(https://www.w3schools.com/js/js_htmldom_document.asp)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNGRoots-class-passed -->
+          <div class="suite-TestNGRoots-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Root3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="day3(thirdUser, thirdPassword)">
+                  </a> <!-- day3(thirdUser, thirdPassword) -->
+                  <span class="method-name">day3</span>
+                  <span class="parameters">(thirdUser, thirdPassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="day3(secondUser, secondPassword)">
+                  </a> <!-- day3(secondUser, secondPassword) -->
+                  <span class="method-name">day3</span>
+                  <span class="parameters">(secondUser, secondPassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="day3(firstUser, firstPassword)">
+                  </a> <!-- day3(firstUser, firstPassword) -->
+                  <span class="method-name">day3</span>
+                  <span class="parameters">(firstUser, firstPassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShell(https://www.google.com/)">
+                  </a> <!-- testShell(https://www.google.com/) -->
+                  <span class="method-name">testShell</span>
+                  <span class="parameters">(https://www.google.com/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNGRoots-class-passed -->
+          <div class="suite-TestNGRoots-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Root2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="anotherTest(https://www.w3schools.com/js/js_htmldom_document.asp)">
+                  </a> <!-- anotherTest(https://www.w3schools.com/js/js_htmldom_document.asp) -->
+                  <span class="method-name">anotherTest</span>
+                  <span class="parameters">(https://www.w3schools.com/js/js_htmldom_document.asp)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNGRoots-class-passed -->
+        </div> <!-- panel TestNGRoots -->
+        <div panel-name="test-xml-TestNGRoots" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\User\eclipse-workspace\TestNGWorkBench\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestNGRoots&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;URL&quot; value=&quot;https://www.google.com/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;test.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;OuterRoots&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;https://www.w3schools.com/js/js_htmldom_document.asp&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.Root1&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;secondTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.Root1 --&gt;
+      &lt;class name=&quot;test.Root2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OuterRoots --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;InnerRoots&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.Root3&quot;/&gt;
+      &lt;class name=&quot;test.Root4&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- InnerRoots --&gt;
+&lt;/suite&gt; &lt;!-- TestNGRoots --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestNGRoots" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestNGRoots</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">OuterRoots (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">InnerRoots (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestNGRoots" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestNGRoots</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Demo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">skippingTests</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testShell</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestNGRoots" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestNGRoots</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestNGRoots');
+function tableData_TestNGRoots() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'skippingTests')
+data.setCell(0, 2, 'test.Root4')
+data.setCell(0, 3, 8);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Demo')
+data.setCell(1, 2, 'test.Root1')
+data.setCell(1, 3, 6);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testShell')
+data.setCell(2, 2, 'test.Root3')
+data.setCell(2, 3, 6);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'day3')
+data.setCell(3, 2, 'test.Root3')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'anotherTest')
+data.setCell(4, 2, 'test.Root2')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'day3')
+data.setCell(5, 2, 'test.Root3')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'day3')
+data.setCell(6, 2, 'test.Root3')
+data.setCell(6, 3, 1);
+window.suiteTableData['TestNGRoots']= { tableData: data, tableDiv: 'times-div-TestNGRoots'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 75 ms</span>
+              <div id="times-div-TestNGRoots">
+              </div> <!-- times-div-TestNGRoots -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestNGRoots" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestNGRoots</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestNGRoots" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.Root1</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">secondTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestNGRoots" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Root3</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">firstMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Root2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">preRequisite</span>
+                <span class="method-start">56 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Root1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Demo(https://www.w3schools.com/js/js_htmldom_document.asp)</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Root3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testShell(https://www.google.com/)</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Root2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">anotherTest(https://www.w3schools.com/js/js_htmldom_document.asp)</span>
+                <span class="method-start">91 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Root4</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">executeEvery</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">skippingTests</span>
+                <span class="method-start">95 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Root1</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">executeLast</span>
+                <span class="method-start">99 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Root3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">day3(firstUser, firstPassword)</span>
+                <span class="method-start">115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">day3(secondUser, secondPassword)</span>
+                <span class="method-start">120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">day3(thirdUser, thirdPassword)</span>
+                <span class="method-start">124 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,8 @@
+15:42:11.517 [main] INFO  resources.Base - Entering password
+15:42:11.676 [main] INFO  resources.Base - Password entered
+15:42:11.676 [main] INFO  resources.Base - Restricted user
+15:42:11.676 [main] INFO  resources.Base - Related text entered
+15:42:11.676 [main] INFO  resources.Base - Clicking on login button
+15:42:12.065 [main] INFO  resources.Base - Clicked on login button
+15:42:12.066 [main] INFO  resources.Base - Checking the text validation on the home page
+15:42:12.110 [main] INFO  resources.Base - Text validation checked

@@ -1,0 +1,7 @@
+17:47:15.949 [TestNG-tests-2] INFO  resources.Base - CLicked on login and in login page now
+17:47:15.967 [TestNG-tests-2] INFO  resources.Base - Entering username
+17:47:16.092 [TestNG-tests-2] INFO  resources.Base - Username entered
+17:47:16.092 [TestNG-tests-2] INFO  resources.Base - Entering password
+17:47:16.169 [TestNG-tests-2] INFO  resources.Base - Password entered
+17:47:16.169 [TestNG-tests-2] INFO  resources.Base - Restricted user
+17:47:16.169 [TestNG-tests-2] INFO  resources.Base - Related text entered

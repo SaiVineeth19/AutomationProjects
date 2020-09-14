@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 86.101 s <<< FAILURE! - in TestSuite
+SaiAcademy.TitlePageTextTest.titleCheckInLandingPage  Time elapsed: 1.155 s  <<< FAILURE!
+java.lang.AssertionError: expected [FEATURED COURSE] but found [FEATURED COURSES]
+	at SaiAcademy.TitlePageTextTest.titleCheckInLandingPage(TitlePageTextTest.java:39)
+

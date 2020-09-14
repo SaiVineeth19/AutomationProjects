@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="SaiAcademy.ListenersTest"/>
+  </listeners>
+  <test thread-count="5" name="Validating title Page Text(failed)" parallel="tests">
+    <classes>
+      <class name="SaiAcademy.TitlePageTextTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- SaiAcademy.TitlePageTextTest -->
+    </classes>
+  </test> <!-- Validating title Page Text(failed) -->
+</suite> <!-- Failed suite [Suite] -->

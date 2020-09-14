@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="SaiAcademy.ListenersTest"></listener>
+	</listeners>
+	<test thread-count="5" name="Validating Right Nav.Bar Test">
+		<classes>
+			<class name="SaiAcademy.RightNavBarTest" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Validating Data Provider Attribute">
+		<classes>
+			<class name="SaiAcademy.HomePageTest" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Validating title Page Text">
+		<classes>
+			<class name="SaiAcademy.TitlePageTextTest" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Validating sample App Text">
+		<classes>
+			<class name="SaiAcademy.AppTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

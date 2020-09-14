@@ -1,0 +1,7 @@
+12:50:53.345 [TestNG-tests-2] INFO  resources.Base - Entering username
+12:50:53.470 [TestNG-tests-2] INFO  resources.Base - Username entered
+12:50:53.470 [TestNG-tests-2] INFO  resources.Base - Entering password
+12:50:53.546 [TestNG-tests-2] INFO  resources.Base - Password entered
+12:50:53.546 [TestNG-tests-2] INFO  resources.Base - Restricted user
+12:50:53.546 [TestNG-tests-2] INFO  resources.Base - Related text entered
+12:50:53.546 [TestNG-tests-2] INFO  resources.Base - Clicking on login button
